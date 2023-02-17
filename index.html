@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body class="bg-ground text-on-primary font-open-sans py-8 px-28">
+    <nav class="h-nav">
+      <ul class="flex justify-center gap-16">
+        <li class="text-lg">About</li>
+        <li class="text-lg">Portfolio</li>
+        <li class="text-lg">Contact</li>
+      </ul>
+    </nav>
+    <header
+      class="container h-header bg-contain bg-no-repeat bg-right flex justify-between"
+    >
+      <div class="w-1/2">
+        <h1 class="text-primary font-extrabold text-6xl mb-5">Damian Orzusa</h1>
+        <h2 class="text-3xl mb-5">Desarrollador web Frontend</h2>
+        <p class="mb-5">
+          Soy un programador web con suma creatividad y profesionalidad en cada
+          uno de los proyectos realizados.
+        </p>
+        <button
+          type="button"
+          class="w-36 font-bold text-primary hover:text-on-primary border-2 border-primary hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-purple-300 rounded-lg px-5 py-2.5 text-center mr-2 mb-2 dark:border-purple-400 dark:text-purple-400 dark:hover:text-white dark:hover:bg-purple-500 dark:focus:ring-purple-900"
+        >
+          Contactame
+        </button>
+      </div>
+
+      <div
+        class="bg-hero-rounded bg-cover bg-no-repeat w-72 h-72 border rounded-full bg-right shadow-lg shadow-primary"
+      ></div>
+    </header>
+
+    <main>
+      <h2>ULTIMOS PROYECTOS</h2>
+      <section></section>
+    </main>
+    <footer>
+      <h2>CONTACTAME</h2>
+      <form>
+        <label for="name">Nombre</label>
+        <input name="name" id="name" />
+        <label for="email">Corre electrónico</label>
+        <input type="email" name="email" id="email" />
+        <label for="message">Mensaje</label>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+      </form>
+    </footer>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
